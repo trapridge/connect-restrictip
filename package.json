@@ -1,0 +1,10 @@
+{
+  "name": "connect-restrictip",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {
+    "ip": "0.0.5",
+    "http-status": "0.1.1"
+  },
+  "engines": { "node": "0.8.x" }
+}
