@@ -10,7 +10,7 @@
   	"blacklist", 
   	"ip"
   ],
-  "author": "Juuso Ansaharju <trapridge@trapridge.me>",
+  "author": "Juuso Ansaharju <me@trapridge.me>",
   "homepage": "https://github.com/trapridge/connect-restrictip",
   "dependencies": {
     "ip": "0.0.5",
@@ -27,7 +27,7 @@
   	"node": "0.8.x" 
   },
   "scripts": {
-  	"pre-install": "npm i -g jasmine-node",
-    "test": "jasmine-node test/"
+  	"preinstall": "npm i -g jasmine-node",
+    "test": "jasmine-node --noStack --verbose test/"
   }
 }
