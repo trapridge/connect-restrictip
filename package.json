@@ -2,9 +2,31 @@
   "name": "connect-restrictip",
   "version": "0.0.1",
   "main": "index",
+  "description": "connect middleware to restrict access by IP addresses",
+  "keywords": [
+  	"connect", 
+  	"middleware", 
+  	"whitelist", 
+  	"blacklist", 
+  	"ip"
+  ],
+  "author": "Juuso Ansaharju <trapridge@trapridge.me>",
+  "homepage": "https://github.com/trapridge/connect-restrictip",
   "dependencies": {
     "ip": "0.0.5",
     "http-status": "0.1.1"
   },
-  "engines": { "node": "0.8.x" }
+  "devDependencies": {
+  	"connect-mock-request": "0.0.1" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trapridge/connect-restrictip.git"
+  },
+  "engines": { 
+  	"node": "0.8.x" 
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  }
 }

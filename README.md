@@ -1,3 +1,3 @@
-# connect-bwlist
+# connect-restrictip
 
-`TODO`
+connect middleware to restrict access by IP addresses
