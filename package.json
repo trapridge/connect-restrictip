@@ -27,6 +27,7 @@
   	"node": "0.8.x" 
   },
   "scripts": {
+  	"pre-install": "npm i -g jasmine-node",
     "test": "jasmine-node test/"
   }
 }
